@@ -1,0 +1,15 @@
+VPC_CIDR= '10.0.0.0/16'
+WEBSERVER_SG="webserver_sg"
+DES_SG="webserver_sg from aws cdk"
+ING_PEER_RANGE="0.0.0.0/0"
+ING_SSH_PORT=22
+ING_HTTP_PORT=80
+ING_HTTPS_PORT=443
+AS_LC_NAME= "webserverALC"
+AMI= "ami-0c2b8ca1dad447f8a"
+INS_TYPE= "t2.micro"
+EC2_KEY="NV_PER_KEY"
+ASG_NAME= "webserverASG"
+MIN_ASG= "1"
+MAX_ASG= "4"
+DES_CAP= "2"
